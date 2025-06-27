@@ -29,7 +29,7 @@ function convertCRC16(str) {
 }
 
 function generateTransactionId() {
-    return `AldiXDHOST-${crypto.randomBytes(2).toString('hex').toUpperCase()}`
+    return `RAMZZHOST-${crypto.randomBytes(2).toString('hex').toUpperCase()}`
 }
 
 function generateExpirationTime() {
